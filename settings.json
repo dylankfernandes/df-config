@@ -1,0 +1,65 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "window.zoomLevel": 0,
+  "workbench.startupEditor": "none",
+  "emmet.syntaxProfiles": {
+    "javascript": "html"
+  },
+  "terminal.integrated.shell.windows": "C:\\Windows\\system32\\cmd.exe",
+  "git.enableSmartCommit": true,
+  "editor.codeLens": true,
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "emmet.includeLanguages": {
+    "edge": "html",
+    "javascript": "javascriptreact"
+  },
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": true,
+  "explorer.confirmDelete": false,
+  "[javascript]": {
+    "editor.formatOnSave": true,
+  },
+  "[html]": {
+    "editor.formatOnSave": true,
+  },
+  "[less]": {
+    "editor.formatOnSave": true,
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "workbench.colorTheme": "Monokai",
+  "beautify.language": {
+    "js": {
+      "type": [],
+      "filename": [
+        ".jshintrc",
+        ".jsbeautifyrc"
+      ]
+      // "ext": ["js", "json"]
+      // ^^ to set extensions to be beautified using the javascript beautifier
+    },
+    "css": [
+      "css",
+      "scss",
+      "less"
+    ],
+    "html": {}
+  },
+  "beautify.ignore": [
+    "js",
+    "**/*main.less",
+    "**/*variables.less"
+  ],
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.shellArgs.windows": [
+    "/k C:\\cmder_mini\\vendor\\init.bat"
+  ],
+  "prettier.eslintIntegration": true,
+  "liveshare.connectionMode": "relay",
+  "workbench.iconTheme": "material-icon-theme",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "html.format.extraLiners": "",
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true
+}
